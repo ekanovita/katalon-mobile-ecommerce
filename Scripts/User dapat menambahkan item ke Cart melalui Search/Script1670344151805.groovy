@@ -19,7 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('User dapat mengakses halaman Home dengan sukses'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Add to Cart/android.widget.TextView - Samsung Galaxy S10 - Black'), 0)
+Mobile.tap(findTestObject('Add to Cart/android.widget.TextView'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Add to Cart/android.widget.AutoCompleteTextView - Search'), 0)
+
+Mobile.verifyElementExist(findTestObject('Add to Cart/android.widget.AutoCompleteTextView - Search'), 0)
+
+Mobile.setText(findTestObject('Add to Cart/android.widget.AutoCompleteTextView - Search'), 'Samsung', 0)
+
+Mobile.waitForElementPresent(findTestObject('Add to Cart/android.widget.ImageView'), 2)
+
+Mobile.verifyElementExist(findTestObject('Add to Cart/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Add to Cart/android.widget.ImageView'), 0)
 
 Mobile.verifyElementExist(findTestObject('Add to Cart/android.widget.TextView - Samsung Galaxy S10 - Black'), 0)
 

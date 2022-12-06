@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User dapat menambahkan item ke Cart melalui Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d98cb562-54d2-41f6-9168-8044350f50bc</testCaseGuid>
+</TestCaseEntity>
