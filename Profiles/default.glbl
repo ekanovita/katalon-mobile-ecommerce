@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk'</initValue>
+      <name>base_apk</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
