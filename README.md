@@ -8,4 +8,4 @@ Terdapat 3 test suite yang ditest dalam project ini, yaitu:
 Untuk menjalankan ketiga test suite diatas, lakukan dengan:
 1. Buka folder test suite
 2. Pilih Main Test Suites
-3. 
+3. Klik Execute
